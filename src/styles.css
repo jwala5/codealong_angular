@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+  background: #EDEEF0;
+}
+
+h1,
+h3,
+h4 {
+  font-weight: 800;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 1.8em;
+}
+
+.link-button {
+  text-decoration: none;
+  text-align: center;
+  background-color: #F05136;
+  cursor: pointer;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  color: white;
+  font-size: 1.8em;
+  padding: 10px;
+  border-radius: 5%;
+  border-color: black;
+}
+
+.link-button:hover {
+  color: white;
+}
